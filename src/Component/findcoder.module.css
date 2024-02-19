@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height:72px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: center;
+}
+#nav>article{
+    height: 100%;
+    width: 95%;
+    /* background-color: aqua; */
+    display: flex;
+
+}
+#nav>article>.logo{
+    height: 100%;
+    width: 30%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+#nav>article>.Menu{
+    height: 100%;
+    width: 40%;
+    /* background-color:green; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+#nav>article>.btn{
+    height: 100%;
+    width: 30%;
+    /* background-color:blue; */
+    display: flex;
+    align-items: center;
+    justify-content:end;
+}
+
+#logoblock{
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+#logoblock>p{
+    margin-left: 10px;
+    font-size:24px;
+    color: #2D88E2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menuBlock{
+    height: 100%;
+ 
+    
+} 
+#menuBlock>.a{
+  
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+     
+}
+#menuBlock>.a>li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 25px;
+    color: grey;
+ 
+   
+    
+}
+#menuBlock>.a>li>a{
+    text-decoration: none;
+}
+#menuBlock>.a>li:hover{
+    color: black;
+}
+
+#btn>button{
+   display: flex;
+   height: 35px;
+   width: 130px;
+   background-color:  #2D88E2;
+   border:2px solid white;
+   border-radius: 5px;
+    
+}
+#btn>button>svg{
+    height: 37px;
+    width: 37px;
+    margin-top:5px;
+    color: white;
+    
+}
+#btn>button>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 7px;
+    color: #fff;
+    
+
+}
+
+
+
+
+
+

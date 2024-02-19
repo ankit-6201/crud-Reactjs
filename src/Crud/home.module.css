@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 80px;
+    width: 100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid white;
+
+                                                                                                                                                               
+}
+#nav>a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(grey, black);
+    display: flex;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#form>#for{
+   
+    height: 50vh;
+    width: 20%;
+    border: 2px solid #fff;
+    border-radius: 10px ;
+    box-shadow: 0px 0px 10px white; 
+    
+}
+
+#form>#for>#h{
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form>#for>#U{
+    margin-left: 95px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#form>#for>table{
+    margin-left: 23px;
+    margin-top: 55px;
+    line-height: 40px;
+
+
+}
+#form>#for>table>tr>td>input{
+    border-radius: 2px solid black;
+}
+
+
+#form>#for>button{
+    height: 25px;
+    width: 60px;
+    margin-top: 30px;
+    margin-left: 121px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+    
+}
+
+#card{
+    height: 110vh;
+    width: 100%;
+    background:linear-gradient(black,grey);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-between;
+
+    
+}
+#card>div{
+    height: 250px;
+    width:220px;
+    /* background-color: black; */
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    box-shadow: 0px 0px 10px white;
+   
+
+}
+#card>div>table{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#card>div:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+#card>div>table>tr>td>button{
+    height: 30px;
+    width: 45px;
+     margin-top: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 2px solid white;
+     
+}
+#card>div>table>tr>td>button:hover{
+    transform: scale(1.2);
+    transition: 2s;
+}
+
+#card>div>table>tr>td>a>button{
+    height: 30px;
+    width: 45px;
+     margin-top: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+     border-radius: 2px solid white;
+}
+#card>div>table>tr>td>a>button:hover{
+    transform: scale(1.2);
+    transition: 2s; 
+}
+/* #form{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(grey, black);   
+} */
